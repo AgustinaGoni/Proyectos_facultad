@@ -1,0 +1,756 @@
+h1, h5, .card-text{
+  text-align: center;
+}
+
+.censados{
+  align-content: center;
+}
+
+.card{
+  width: 18rem;
+}
+
+#seccionRegistro {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#seccionRegistro h2 {
+  text-align: center;
+}
+
+#seccionRegistro form {
+  margin-top: 20px;
+}
+
+#seccionRegistro label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#seccionRegistro input[type="text"],
+#seccionRegistro input[type="password"],
+#seccionRegistro select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#seccionRegistro button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#seccionRegistro button[type="submit"]:hover {
+  background-color: #CC0000;
+}
+
+#seccionLogin {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#seccionLogin button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #05ad4b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#seccionLogin button[type="submit"]:hover {
+  background-color: #0b5d2d;
+}
+
+.btn-success{
+  background-color: #21416E;
+  border-color: #21416E;
+}
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#dashboard,
+#censadosTotales {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 20px;
+
+
+}
+
+.btn, button{
+  background-color: #21416E !important;
+  border-color: #21416E !important;
+  transition: 0.3s;
+}
+
+.btn:hover, button:hover{
+  background-color: #2d5792 !important;
+  border-color: #2d5792 !important;
+}
+
+#agregarVenta,
+#listadoPersonas,
+#censadosTotales {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+#agregarVenta h2,
+#listadoPersonas h2,
+#censadosTotales h2 {
+  text-align: center;
+}
+
+#agregarVenta form div,
+#listadoPersonas #filtroOcupacion {
+  margin-bottom: 10px;
+}
+
+#agregarVenta label,
+#listadoPersonas label,
+#censadosTotales p {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#agregarVenta input[type="text"],
+#agregarVenta input[type="date"],
+#agregarVenta select,
+#listadoPersonas select,
+#listadoPersonas ul,
+#censadosTotales span {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+
+#listadoPersonas {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#listadoPersonas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#filtroOcupacion {
+  margin-bottom: 10px;
+}
+
+#filtroOcupacion label {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #357ddc46;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #235dc8;
+}
+
+#censadosTotales table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#censadosTotales th,
+#censadosTotales td {
+  padding: 8px;
+  text-align: left;
+}
+
+#censadosTotales th {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#censadosTotales tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#censadosTotales tr:hover {
+  background-color: #28a745;
+  color: #FFFFFF;
+}
+
+#censadosTotalesRow td {
+  padding: 8px;
+  text-align: left;
+}
+
+#censadosTotalesRow tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#censadosTotalesRow tr:hover {
+  background-color: #28a745;
+  color: #FFFFFF;
+}
+
+.fa-icon {
+  font-size: 20px;
+  color: #ff0000; 
+}
+h1, h5, .card-text{
+  text-align: center;
+}
+
+.censados{
+  align-content: center;
+}
+
+.card{
+  width: 18rem;
+}
+
+#seccionRegistro {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#seccionRegistro h2 {
+  text-align: center;
+}
+
+#seccionRegistro form {
+  margin-top: 20px;
+}
+
+#seccionRegistro label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#seccionRegistro input[type="text"],
+#seccionRegistro input[type="password"],
+#seccionRegistro select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#seccionRegistro button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#seccionRegistro button[type="submit"]:hover {
+  background-color: #CC0000;
+}
+
+#seccionLogin {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#seccionLogin button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #05ad4b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#seccionLogin button[type="submit"]:hover {
+  background-color: #0b5d2d;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#dashboard,
+#censadosTotales {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 20px;
+}
+
+#agregarVenta,
+#listadoPersonas,
+#censadosTotales {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+#agregarVenta h2,
+#listadoPersonas h2,
+#censadosTotales h2 {
+  text-align: center;
+}
+
+#agregarVenta form div,
+#listadoPersonas #filtroOcupacion {
+  margin-bottom: 10px;
+}
+
+#agregarVenta label,
+#listadoPersonas label,
+#censadosTotales p {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#agregarVenta input[type="text"],
+#agregarVenta input[type="date"],
+#agregarVenta select,
+#listadoPersonas select,
+#listadoPersonas ul,
+#censadosTotales span {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#agregarVenta button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#agregarVenta button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#listadoPersonas {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#listadoPersonas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#filtroOcupacion {
+  margin-bottom: 10px;
+}
+
+#filtroOcupacion label {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #21416E;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c548d;
+}
+
+#censadosTotales table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#censadosTotales th,
+#censadosTotales td {
+  padding: 8px;
+  text-align: left;
+}
+
+#censadosTotales th {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#censadosTotales tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#censadosTotales tr:hover {
+  background-color: #28a745;
+  color: #FFFFFF;
+}
+
+#censadosTotalesRow td {
+  padding: 8px;
+  text-align: left;
+}
+
+#censadosTotalesRow tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#censadosTotalesRow tr:hover {
+  background-color: #28a745;
+  color: #FFFFFF;
+}
+
+.fa-icon {
+  font-size: 20px;
+  color: #ff0000;
+ } 
+/* -------------------------------------------------------------------*/
+/*
+.lista-personas {
+  margin-top: 20px;
+}
+
+.tabla-encabezado {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  font-weight: bold;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.persona {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.persona p {
+  margin: 0;
+}*/
+
+/* ---- censo ----*/
+.censo {
+  background: linear-gradient(
+    45deg,
+    hsl(236deg 12% 22%) 1%,
+    hsl(208deg 22% 18%) 42%,
+    hsl(192deg 24% 14%) 49%,
+    hsl(173deg 18% 11%) 51%,
+    hsl(139deg 10% 9%) 51%,
+    hsl(75deg 13% 6%) 50%,
+    hsl(138deg 22% 9%) 49%,
+    hsl(173deg 71% 9%) 49%,
+    hsl(189deg 100% 12%) 51%,
+    hsl(199deg 100% 17%) 58%,
+    hsl(215deg 54% 28%) 99%
+  );
+  color: #EFF0E8;
+  min-height: 50vh;
+  padding: 5px ;
+}
+
+.censo h2 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.censo .card-censo {
+  color: #FFF;
+  padding: 20px 40px 40px;
+  text-align: center;
+  border-radius: 8px;
+  transition: all .8s;
+  background-color: #11120E;
+  box-shadow: 0 5px 15px rgba(22, 22, 22, 0.2);
+}
+
+.censo .card-censo i {
+  font-size: 100px;
+  opacity: 0.8;
+}
+
+.censo .card-censo h3 {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.censo .card-censo p {
+  font-size: 1.3rem;
+}
+
+.censo .card-censo:hover {
+  transform: scale(1.05);
+}
+
+/*----- porcentaje ------*/
+/*--PORCENTAJE--*/
+.porcentaje {
+  background: linear-gradient(45deg, #bac0a6, #32332f);
+}
+
+.porcentaje h2 {
+  color: #11120E;
+}
+
+.porcentaje i,
+.porcentaje a,
+.porcentaje p {
+  color: #EFF0E8;
+}
+
+.card-porcentaje {
+  background-image: linear-gradient(
+    315deg,
+    hsl(236deg 12% 22%) 1%,
+    hsl(208deg 22% 18%) 42%,
+    hsl(192deg 24% 14%) 49%,
+    hsl(173deg 18% 11%) 51%,
+    hsl(139deg 10% 9%) 51%,
+    hsl(75deg 13% 6%) 50%,
+    hsl(138deg 22% 9%) 49%,
+    hsl(173deg 71% 9%) 49%,
+    hsl(189deg 100% 12%) 51%,
+    hsl(199deg 100% 17%) 58%,
+    hsl(215deg 54% 28%) 99%
+  );
+  color: #FFF;
+  padding: 20px 40px 40px;
+  text-align: center;
+  border-radius: 8px;
+  transition: all .8s;
+}
+
+.card-porcentaje h3 {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.card-porcentaje p {
+  font-size: 1.3rem;
+}
+
+.card-porcentaje:hover {
+  transform: scale(1.4);
+}
+
+.card-totales p,
+.row.porcentaje p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    height: 100%; 
+}
+
+/* tiempo restante*/
+.tiempo-restante {
+  text-align: center;
+  padding: 20px;
+  background-color: #21416E; 
+  color: #EFF0E8; 
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(22, 22, 22, 0.2);
+}
+
+.cuadro-dias {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #323340; 
+  color: #EFF0E8; 
+  border-radius: 8px;
+}
+
+.cuadro-dias p {
+  font-size: 2rem;
+  margin: 0;
+}
+
+
+/* Estilos para el contenedor del formulario */
+.contenedor-form {
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(22, 22, 22, 0.2);
+  padding: 20px; 
+  margin-bottom: 20px; 
+  background:linear-gradient(45deg, #bac0a6, #32332f); 
+}
+
+/* Estilos para los títulos de sección */
+.titulo-seccion {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #11120E; 
+}
+
+/* Estilos para los botones de formulario */
+.btn-form {
+  background-color: #11120E;
+  color: #afb393;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-form:hover {
+  background-color: #182d4e;
+  color: #EFF0E8;
+}
+
+
+#btn-primary{
+  background-color: #11120E;
+}
