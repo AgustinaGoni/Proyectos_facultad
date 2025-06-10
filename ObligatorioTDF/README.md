@@ -41,11 +41,8 @@ Este proyecto fue desarrollado como parte del curso **Taller de Desarrollo Front
 
 ## 📸 Capturas de pantalla
 
-> Podés agregar una carpeta `/capturas/` y enlazar las imágenes con sintaxis Markdown como:
 
-```markdown
-![Dashboard](./capturas/captura1.png)
-```
+![Censo](./capturas/captura1.png)
 
 ---
 
